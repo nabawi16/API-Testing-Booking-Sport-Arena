@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "fullname": {
+          "type": "string"
+        },
+        "username": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "phone_number": {
+          "type": "string"
+        },
+        "bussiness_name": {
+          "type": "string"
+        },
+        "bussiness_description": {
+          "type": "string"
+        },
+        "bussiness_certificate": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "fullname",
+        "username",
+        "role",
+        "status",
+        "email",
+        "image",
+        "phone_number",
+        "bussiness_name",
+        "bussiness_description",
+        "bussiness_certificate"
+      ]
+    },
+    "code": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "code",
+    "message"
+  ]
+}
